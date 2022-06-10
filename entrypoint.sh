@@ -17,7 +17,7 @@ check_if_meta_yaml_file_exists() {
 }
 
 build_package(){
-    conda build -c conda-forge -c bioconda -c adw62 --output-folder . .
+    conda build -c conda-forge -c bioconda -c ucl-ccs --output-folder . .
 }
 
 upload_package(){
